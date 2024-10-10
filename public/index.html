@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Goy Kanu</title>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+     <header>
+        <div class="navbar">
+            <div class="logo"> 
+                <div>Goy Kanu</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Movies & TV Shows</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="user-options">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Search for a Movie</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Кино хайх..." required>
+                <button id="searchButton"><i class="fas fa-search"></i></button>
+            </div>
+         <h2>Movie Results</h2>
+         <ul id="movieList"></ul>
+        </div>
+    </section>
+    <div>
+        <section class="latest-movies">
+            <h2>Latest Movies</h2>
+            <div class="movie-slider">
+              <div class="movie-item">
+                <img src="/img/avatar.jpg" alt="Star Wars Movie Poster">
+                <h3>Avatar</h3>
+              </div>
+              <div class="movie-item">
+                <img src="brain.jpg" alt="The Brain Movie Poster">
+                <h3>The Brain</h3>
+              </div>
+              <div class="movie-item">
+                <img src="mummy.jpg" alt="The Mummy Movie Poster">
+                <h3>The Mummy</h3>
+              </div>
+              <div class="movie-item">
+                <img src="parrot.jpg" alt="Parrot Movie Poster">
+                <h3>Parrot</h3>
+              </div>
+            </div>
+            <button class="view-all-btn">View All</button>
+          </section>
+    </div>
+     <script src="script.js"></script>
+ </body>
+ </html>
+ 
